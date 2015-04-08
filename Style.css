@@ -1,0 +1,19 @@
+tr:nth-child(even)  {
+    background-color: #2185C5;
+/*    text-align: right;*/
+}
+
+tr:nth-child(odd)  {
+    background-color: #FFD933;
+/*    text-align: right;*/
+}
+
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #778691;
+        }
+    h4 {
+        color: #7F1637;}
+}
+
