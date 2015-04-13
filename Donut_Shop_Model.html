@@ -1,42 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Time to Make the Doughnuts!</title>
+ <meta charset="UTF-8">
+ <title></title>
+ <link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+ <link type="text/css" rel="stylesheet" href="Style.css">
 </head>
 <body>
-  <main id="content">
-    <table style="border: 2px solid blue; border-collapse:collapse;">
+  <div id="header">
+    <h1><span class="whoweareicon"></span>TIME TO MAKE THE DOUGHNUTS!!</a></h1>
+    <h3><strong>The following table shows the total number of doughnuts sold to customers per hour on any given day in the five Seattle neighborhoods where Top Pot Doughnuts has locations.</strong></h3>
+   <table style="border: 2px solid blue; border-collapse:collapse;">
 
-      <thead>
-    <tr ><th></th><td>7:00 AM</td><td>8:00 AM</td><td>9:00 AM</td><td>10:00AM</td><td>11:00 AM</td><td>12:00 PM</td><td>1:00 PM</td><td>2:00 PM</td><td>3:00 PM</td><td>4:00 PM</td><td>5:00 PM</td><td>6:00 PM</td><td>Total</td></tr>
-    </thead>
-    <tbody id="tablebody">
-    </tbody>
-    <!-- <tr id="downtown"><th>Downtown</th></tr>
-    <tr id="capitolHill"><th>CapitolHill</th></tr>
-    <tr id="southLakeUnion"><th>SouthLakeUnion</th></tr>
-    <tr id="wedgewood"><th>Wedgewood</th></tr>
-    <tr id="ballard"><th>Ballard</th></tr> -->
-    </table>
+     <thead>
+   <tr ><th></th><td>7:00 AM</td><td>8:00 AM</td><td>9:00 AM</td><td>10:00AM</td><td>11:00 AM</td><td>12:00 PM</td><td>1:00 PM</td><td>2:00 PM</td><td>3:00 PM</td><td>4:00 PM</td><td>5:00 PM</td><td>Total</td></tr>
+   </thead>
+   <tbody id="tablebody">
+   </tbody>
+   <!-- <tr id="downtown"><th>Downtown</th></tr>
+   <tr id="capitolHill"><th>CapitolHill</th></tr>
+   <tr id="southLakeUnion"><th>SouthLakeUnion</th></tr>
+   <tr id="wedgewood"><th>Wedgewood</th></tr>
+   <tr id="ballard"><th>Ballard</th></tr> -->
+   </table>
 
-        <h1>Locations:</h1>
-    <form id="new-location-form">
-      <label for="location">Location</label>
-      <input name="location" type="text">
-      <label for="minNumCust">MinNumCust</label>
-      <input name="minNumCust" type="text">
-      <label for="maxNumCust">MaxNumCust</label>
-      <input name="maxNumCust" type="text">
-      <label for="avgDnutsCust">AvgDnutsCust</label>
-      <input name="avgDnutsCust" type="text">
+   <h3>Choose a location where you would like to see a new Top Pot Doughnuts and enter what you think would be the minimum number of customers to visit (MinNumCust), the maximum number of customers (MaxNumCust), and the average number of doughnuts purchased per customer (AvgDnutsCust).</h3>
 
-      <button type="submit">Save location</button>
-    </form>
-  </main>
+       <h1>Locations:</h1>
+   <form id="new-location-form">
 
-  <script src="Donut_Shops_constructor.js"></script>
-  <script src="events.js"></script>
+     <input name="location" type="text" placeholder="Location">
+     <label for="minNumCust">MinNumCust</label>
+     <input name="minNumCust" type="text" placeholder="Number">
+     <label for="maxNumCust">MaxNumCust</label>
+     <input name="maxNumCust" type="text" placeholder="Number">
+     <label for="avgDnutsCust">AvgDnutsCust</label>
+     <input name="avgDnutsCust" type="text" placeholder="Number">
 
+     <button type="submit">Save location</button>
+     <p><img width="45%" src="http://cdn.someecards.com/someecards/usercards/1331179237116_421392.png"></p>
+   </form>
+ </main>
+
+ <script src="Donut_Shop_Model.js"></script>
+ <script src="events.js"></script>
+
+</div>
 </body>
 </html>
