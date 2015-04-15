@@ -7,40 +7,12 @@ tr:nth-child(odd)  {
     background-color: #FFD933;
 /*    text-align: right;*/
 }
-title   {
+body   {
     position: absolute;
     top: 0px;
     left: 0px;
     padding: 10px;
-    margin: 0px;
-    width: 100%;
     text-align: center;
-    .whoweareicon {
-
-  font-size: 100px;
-  font-style: normal;
-  color: ;
- /* position:relative;*/
-  width: 40px;
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-              }
-
-.whoweareicon:hover {
-  color: #9F9;
-
-  -webkit-transition: -webkit-transform 0.4s ease-out;
-  -moz-transition: -moz-transform 0.4s ease-out;
-  transition: transform 0.4s ease-out;
-  -webkit-transform: rotateZ(360deg);
-  -moz-transform: rotateZ(360deg);
-  transform: rotateZ(360deg);
-}
-}
-
-
-body {
     font-family: 'Titillium Web', sans-serif;
     background-color: #801744;
     width: 90%;
@@ -51,6 +23,28 @@ body {
         position: relative;
         top: 10px;
         left: 100px;
-        color: #666666;}
+        color: #FFF0A5;}
+
+.whoweareicon {
+
+  font-size: 50px;
+  font-style: normal;
+  color: #FFF0A5;
+ /* position:relative;*/
+  width: 40px;
+/*  display:block;*/
+  margin-left: auto;
+  margin-right: auto;
+              }
+.whoweareicon:hover {
+  color: #9F9;
+
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+  -moz-transition: -moz-transform 0.4s ease-out;
+  transition: transform 0.4s ease-out;
+  -webkit-transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
 
 
